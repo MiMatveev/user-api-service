@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     private final RequestHandler<User> registrationHandler;
 
-    @PostMapping(value = "/auth/user")
+    @PostMapping(value = "/user")
     public ResponseEntity<?> registration(@RequestBody User requestBody) {
         return registrationHandler.process(requestBody);
     }

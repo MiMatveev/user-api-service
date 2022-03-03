@@ -18,8 +18,6 @@ spring:
       path: /h2
 server:
   port: 8181
-  servlet:
-    context-path: /auth
   error:
     whitelabel:
       enabled: false
