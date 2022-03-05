@@ -1,4 +1,4 @@
-package mi.matveev.handler;
+package mi.matveev.handlers;
 
 import org.springframework.http.ResponseEntity;
 

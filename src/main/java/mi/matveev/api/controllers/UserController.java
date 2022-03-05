@@ -2,7 +2,7 @@ package mi.matveev.api.controllers;
 
 import lombok.RequiredArgsConstructor;
 import mi.matveev.database.entitys.User;
-import mi.matveev.handler.RequestHandler;
+import mi.matveev.handlers.RequestHandler;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

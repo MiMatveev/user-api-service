@@ -16,7 +16,7 @@ import java.time.LocalDate;
 @Component
 @Entity
 @Table(name = "CODES")
-public class ConfirmCode {
+public class Code {
     @Id
     @Column(name = "ID")
     private String id;

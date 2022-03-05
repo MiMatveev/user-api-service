@@ -10,7 +10,7 @@ Body:
 
 
 | Field    | Type   | Mandatory |
-|----------|--------|-----------|
+| ---------- | -------- | ----------- |
 | login    | String | 1..1      |
 | email    | String | 1..1      |
 | password | String | 1..1      |
@@ -27,7 +27,7 @@ Body (at status 201):
 
 
 | Field  | Type |
-|--------|------|
+| -------- | ------ |
 | userId | UUID |
 
 ---
@@ -38,7 +38,7 @@ Body (at status 400):
 
 
 | Field       | Type   |
-|-------------|--------|
+| ------------- | -------- |
 | error       | String |
 | description | String |
 

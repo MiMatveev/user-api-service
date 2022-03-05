@@ -1,7 +1,7 @@
 package mi.matveev.database.services.impl;
 
 import lombok.RequiredArgsConstructor;
-import mi.matveev.database.entitys.ConfirmCode;
+import mi.matveev.database.entitys.Code;
 import mi.matveev.database.repositories.ConfirmCodeRepository;
 import mi.matveev.database.services.ConfirmCodeService;
 import mi.matveev.enums.CodeType;
@@ -20,7 +20,7 @@ public class ConfirmCodeServiceImpl implements ConfirmCodeService {
 
     @Override
     public void create(String userId, CodeType codeType, int codeLength, LocalDate validTo) {
-        ConfirmCode actionCode = new ConfirmCode();
+        Code actionCode = new Code();
         String codeId = UUID.randomUUID().toString();
 
         actionCode.setId(codeId);

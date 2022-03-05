@@ -1,4 +1,4 @@
-package mi.matveev.handler.user;
+package mi.matveev.handlers.user;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -8,7 +8,7 @@ import mi.matveev.database.services.UserService;
 import mi.matveev.enums.BadRequestType;
 import mi.matveev.enums.CodeType;
 import mi.matveev.exceptions.ValidationError;
-import mi.matveev.handler.RequestHandler;
+import mi.matveev.handlers.RequestHandler;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;

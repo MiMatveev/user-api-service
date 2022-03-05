@@ -1,7 +1,7 @@
 package mi.matveev.database.repositories;
 
-import mi.matveev.database.entitys.ConfirmCode;
+import mi.matveev.database.entitys.Code;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ConfirmCodeRepository extends JpaRepository<ConfirmCode, String> {
+public interface ConfirmCodeRepository extends JpaRepository<Code, String> {
 }
